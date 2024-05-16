@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&display=swap");
+
+* {font-family : "Readex Pro";}
+
+body {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #0096ff !important;
+    font-weight: 500;
+}
+
+a:hover {
+    color: #d33682 !important;
+    text-decoration: none;
+}
+
+ul {list-style-type: none;}
+
+hr {
+    margin-top: 0px;
+    margin-bottom: 5%;
+}
+
+.custom-button {
+    background-color: #0096ff; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    border: none; /* Eliminar borde del botón */
+    padding: 10px 20px; /* Ajustar el espaciado interior del botón */
+    border-radius: 5px; /* Añadir esquinas redondeadas al botón */
+}
+
+.custom-button:hover {
+    background-color: #d33682; /* Color de fondo del botón al pasar el mouse */
+}
+
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;}
